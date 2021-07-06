@@ -15,9 +15,9 @@
 	    for(var i = 0; i < elements.length; i++){
             elements[i].style.color = "white";
         }
-        document.getElementById("mudarimg1").src = "/images/himikomagica.png";
-        document.getElementById("mudarimg2").src = "/images/himikomagica2.png";
-        document.getElementById("mudarimg3").src = "/images/rouama.png";
+        document.getElementById("mudarimg1").src = "https://cdn.discordapp.com/attachments/390326672853041154/862056615196229632/himikomagica.png";
+        document.getElementById("mudarimg2").src = "https://cdn.discordapp.com/attachments/390326672853041154/862056620459556916/himikomagica2.png";
+        document.getElementById("mudarimg3").src = "https://cdn.discordapp.com/attachments/390326672853041154/862056714990518302/rouama.png";
     }
     function alerta() {
         alert("Obrigado por acessar!");
