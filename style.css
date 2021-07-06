@@ -1,0 +1,180 @@
+body{ 
+    background-color: #111111;
+    font-family: cursive;
+    color: white;
+    border: 1px solid crimson
+}
+
+#cabecalho{
+    font-size: 40px;
+    text-align: center;
+    background-color: crimson;
+    color: black;
+    min-height: 60px;
+    line-height: 60px;
+}
+
+#rodape{
+    background-color: crimson;
+}
+
+.rodape{
+    background-color: rgb(104, 7, 26);
+}
+
+
+/* detalhes de texto */
+
+.comentario {
+    font-size: small;
+}
+
+.spoiler {
+    background-color: crimson;
+    color: crimson;
+}
+
+/* botoes */
+
+.botao{
+    background-color: transparent;
+    outline: none;
+    overflow: hidden;
+    border:none;
+    color: white;
+}
+
+.hoverbutton:hover{
+    font-size: xx-large;
+    font-weight: bold;
+    color:crimson;
+}
+
+#whois{
+    transition: 0.5s;
+}
+
+/* menu lateral */
+
+.barrafixa {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 59px;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+ }
+
+ .barrafixa a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+ }
+
+ .barrafixa .botaofechar {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-right: 50px;
+ }
+
+ .transicao {
+    font-size: 28px;
+    padding: 0px 10px;
+    transition: margin-right 0.5s;
+ }
+
+.botaomenu{
+    visibility: hidden;
+    color:white;
+    text-align: center;
+}
+
+.himikomenu{
+    position:fixed;
+    left:50px;
+    top:90px;
+}
+
+.textomenu{
+    position:fixed;
+    left:50px;
+    top:60px;
+}
+
+
+@media screen and (max-width: 1750px) {
+    .himikomenu{
+        left:30px;
+        top:90px;
+    }
+
+    .textomenu{
+        left:30px;
+        top:60px;
+    }
+}
+    
+@media screen and (max-width: 1600px) {
+    .himikomenu{
+        left:10px;
+        top:90px;
+    }
+
+    .textomenu{
+        left:10px;
+        top:60px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .himikomenu{
+        visibility: hidden;
+    }
+
+    .textomenu{
+        visibility: hidden;
+    }
+
+    .botaomenu{
+        visibility: visible;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    .barrafixa {
+       width: 100%;
+       height: auto;
+       position: relative;
+    }
+
+    .barrafixa a {
+       float: left;
+       font-size: 18px;
+    }
+
+    .transicao {
+       margin-right: 0;
+    }
+
+    .himikomenu{
+        visibility: hidden;
+    }
+ }
+ @media screen and (max-width: 400px) {
+    .barrafixa a {
+       text-align: center;
+       float: none;
+    }
+
+ }
+
+ 
